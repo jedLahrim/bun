@@ -1,0 +1,21 @@
+{
+  "name": "test-project",
+  "module": "main.ts",
+  "type": "module",
+  "scripts": {
+    "start": "bun run main.ts",
+    "build": "tsc",
+    "start:debug": "bun --inspect-brk main.ts",
+    "start:prod": "bun run main.js"
+  },
+  "devDependencies": {
+    "bun-types": "latest"
+  },
+  "peerDependencies": {
+    "typescript": "^5.0.0"
+  },
+  "dependencies": {
+    "multer": "1.4.5-lts.1",
+    "mysql2": "3.3.3"
+  }
+}
